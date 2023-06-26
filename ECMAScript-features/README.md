@@ -169,7 +169,7 @@ Each proposal for an ECMAScript feature goes through the following maturity stag
     ```js
     //1. Single parameter and single statement
     const message = name => console.log("Hello, " + name + "!");
-    message("Sudheer"); // Hello, Sudheer!
+    message("Atul"); // Hello, Atul!
 
     //2. Multiple parameters and single statement
     const multiply = (x, y) => x * y;
@@ -2063,11 +2063,11 @@ Most of these features already supported by some browsers and try out with babel
 
     ```javascript
     const myObject = new WeakRef({
-      name: ‘Sudheer’,
+      name: ‘Atul’,
       age: 34
     });
-    console.log(myObject.deref()); //output: {name: “Sudheer”, age: 35}
-    console.log(myObject.deref().name); //output: Sudheer
+    console.log(myObject.deref()); //output: {name: “Atul”, age: 35}
+    console.log(myObject.deref().name); //output: Atul
     ```
     **Finalizers:**
     A `FinalizationRegistry` object lets you request a callback when an object is garbage-collected. It works as a cleanup callback.

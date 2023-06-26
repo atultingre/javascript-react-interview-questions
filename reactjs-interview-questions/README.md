@@ -3427,7 +3427,7 @@
      ```javascript
      this.props.history.push({
        pathname: "/template",
-       search: "?name=sudheer",
+       search: "?name=Atul",
        state: { detail: response.data },
      });
      ```
